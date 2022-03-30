@@ -72,3 +72,23 @@ footer{
     padding: 2em;
 
 }
+.contact{
+    font-size: 16pt;
+    text-align: center;
+}
+form{
+    display: grid;
+    width: 500px;
+    grid-template-columns: auto;
+    align-items: center;
+    grid-gap: 0.4em;
+}
+.message{
+    padding: 4em;
+}
+.eye{
+    width: 100%;
+    height: 100%;
+}
+
+
