@@ -5,23 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="desktop.css">
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="main.css" media="screen" />
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1000px)" />
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 1000px)" />
 </head>
 <body>
-    <header><p>Agnieszka Socha</p><p>Northampton University Student</p></header>
-        <nav>
+    <header><p class="name">Agnieszka Socha</p><p class="uni">Northampton University Student</p></header>
+        <nav class="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">My Portfolio</a></li>
-                <li><a href="blog.html">My Blog</a></li>
+                <li><a href="portfolio.html"> Portfolio</a></li>
+                <li><a href="blog.html"> Blog</a></li>
                 <li><a href="sitereport.html">Site Report</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <main></main>
-        <footer></footer>
+        <main class="portfolio">
+            <a  href="#"> <img class="web" src="web developement.jpg" alt="Web" title="WEB PAGE"></a>
+            <a href="#"><img class="game" src="game designing.jpg" alt="Game" title="GAME"></a>
+             <a href="#"><img class="database" src="database.jpg" alt="Database" title="RELATIONAL DATABASE"></a>
+             <a href="#"><img class="project" src="group project.jpg" alt="Group Project" title="GROUP PROJECT"></a>
+        </main>
+        <aside class="next">
+            <h3>Projects</h3>
+            <p>Here you can find all projects i have completed as a student at Northampton University.</p>
+        </aside>
+        <footer>(c)Agnieszka Socha</footer>
     
 </body>
 </html>

@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="desktop.css">
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="main.css" media="screen" />
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1000px)" />
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 1000px)" />
 </head>
 <body>
     
@@ -16,20 +16,20 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html">My Portfolio</a></li>
-            <li><a href="blog.html">My Blog</a></li>
+            <li><a href="portfolio.html"> Portfolio</a></li>
+            <li><a href="blog.html"> Blog</a></li>
             <li><a href="sitereport.html">Site Report</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main class="message">
-        <h1>I'd like to hear from you </h1>
+        <h1 class="hear">I'd like to hear from you </h1>
         <h2 class="contact">If you have any further questions, please don't hesitate to contact me</h2>
         <form action="mailto:agnieszkasocha21@northampton.ac.uk?subject=Contact Form" method="POST"></form>
            <label for="myinput">NAME</label> <input type="text" name="myinput" id="myinput" />
            <label for="myinput">EMAIL</label> <input type="text" name="myinput" id="myinput" />
              <form action="action" method="POST">
-            <textarea name="mytextarea">
+            <textarea name="mytextarea" class="box">
             </textarea>
             <input type="submit" value="Submit" name="submit" />
         </form>
