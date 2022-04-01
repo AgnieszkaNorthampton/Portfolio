@@ -95,7 +95,7 @@ form{
     margin: 1em;
 }
 .message{
-    padding: 5em;
+    padding: 4em;
 }
 .hear{
     padding: 0em;
@@ -120,14 +120,14 @@ form{
 .database{
     height: 38%;
     width: 38%;
-    border-radius: 50%;
+    border-radius: 30%;
     margin: 1em;
     
 }
 .project{
     height: 38%;
     width: 38%;
-    border-radius: 50%;
+    border-radius:30%;
     margin: 1em;
 
 }
@@ -138,11 +138,28 @@ form{
 }
 h3{
     font-weight: bold;
+    text-align: center;
 }
 .next{
     background-color: lightblue;
     color: darkblue;
     font-size: 15pt;
+
+}
+h4{
+    padding: 1em;
+}
+.programming{
+   padding: 1em; 
+}
+article{
+    padding: 1em;
+    font-size: 13pt;
+}
+.blog{
+    height: 100%;
+    width: 100%;
+    border-radius: 30%;
 }
    
 
