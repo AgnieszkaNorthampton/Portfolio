@@ -65,7 +65,17 @@ main h1{
     font-size: 15pt;
 }
     .box{
-    height:max-content;
+    height:100%;
+    margin: 2em;
+
+    }
+    .email{
+        height: 50%;
+        margin: 2em;
+    }
+    .submit{
+    
+        margin: 2em;
     }
 
 aside{
@@ -74,7 +84,7 @@ aside{
 footer{
     grid-area: footer;
     color: darkblue;
-    padding: 2em;
+    padding: 1em;
     text-align: left;
 }
 
@@ -95,7 +105,7 @@ form{
     margin: 1em;
 }
 .message{
-    padding: 4em;
+    padding: 2em;
 }
 .hear{
     padding: 0em;
@@ -135,6 +145,7 @@ form{
     background-color: lightblue;
     margin: 1em;
     padding: 1em;
+    font-size: 13pt;
 }
 h3{
     font-weight: bold;
@@ -148,9 +159,12 @@ h3{
 }
 h4{
     padding: 1em;
+    font-size: 13pt;
+
 }
 .programming{
-   padding: 1em; 
+
+    font-size: 13pt;
 }
 article{
     padding: 1em;
@@ -160,6 +174,15 @@ article{
     height: 100%;
     width: 100%;
     border-radius: 30%;
+}
+.contactpage{
+    height: 50%;
+    width: 50%;
+    border-radius: 30%;
+    float: right
+}
+.reporting{
+    text-align: center;
 }
    
 
