@@ -1,0 +1,10 @@
+body{
+    display: grid;
+    grid: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "header"
+    "nav"
+    "main"
+    "footer";
+    height: 100vh;
+}
