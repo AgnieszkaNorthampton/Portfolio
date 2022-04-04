@@ -1,44 +1,31 @@
 body{
     background-color: lightblue;
-    margin: 1em;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: auto;
-    grid-template-areas: "header nav nav"
-                         "main main aside"
-                       "footer footer footer";
+
+    
 }
 header{
-    font-family: Arial, Helvetica, sans-serif;
+
     font-weight: bold;
-    padding: 1em;
-    grid-area: header;
+    
+    
+}
+header>p{
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
 }
     .uni{
         font-size: 12pt;
         font-family: 'Courier New', Courier, monospace;
     }
-    .name{
-        font-size: 16pt;
-        font-family: 'Courier New', Courier, monospace;
-    }
+    
 
      nav{
-        grid-area: nav;
-        font-size: 15pt;
+        
+        
         font-weight: bold;
-        text-align: center;
-        padding: 2em;
 
         }
 
-
-    li{
-        
-        display: block;
-        float: left;
-        width: 20%;
-     }
     li a{
         text-decoration: none;
         color: darkblue;
@@ -50,41 +37,24 @@ header{
     main{
     background-color: lightgray;
     color:darkblue;
-    padding: 4em;
-    grid-area: main;
+    font-size: 15pt;
+    
+    
 }
-main h1{
+h1{
     text-align: center;
     font-weight:bold;
-    font-size: 25pt;
-    margin: 1em;
+    
     
 }
-.text{
-    text-align: left;
-    font-size: 15pt;
+h2{
+    text-align: center;
 }
-    .box{
-    height:100%;
-    margin: 2em;
 
-    }
-    .email{
-        height: 50%;
-        margin: 2em;
-    }
-    .submit{
-    
-        margin: 2em;
-    }
 
-aside{
-    grid-area: aside;
-}
 footer{
-    grid-area: footer;
+    
     color: darkblue;
-    padding: 1em;
     text-align: left;
 }
 
@@ -92,29 +62,12 @@ footer{
     font-size: 16pt;
     text-align: center;
 }
-form{
-    display: grid;
-    width: 500px;
-    grid-template-columns: auto;
-    align-items: center;
-    grid-gap: 0.4em;
-    padding: 2em;
-}
+
 .menu{
     padding:1em;
     margin: 1em;
 }
-.message{
-    padding: 2em;
-}
-.hear{
-    padding: 0em;
-    margin: 0%;
-}
-.eye{
-    width: 100%;
-    height: 100%;
-}
+
 .web{
     height: 38%;
     width: 38%;
@@ -143,28 +96,24 @@ form{
 }
 .portfolio{
     background-color: lightblue;
-    margin: 1em;
-    padding: 1em;
-    font-size: 13pt;
+   
 }
 h3{
     font-weight: bold;
     text-align: center;
-}
-.next{
-    background-color: lightblue;
     color: darkblue;
-    font-size: 15pt;
-
 }
+
 h4{
     padding: 1em;
     font-size: 13pt;
+    color: darkblue;
 
 }
-.programming{
-
+aside>p{
     font-size: 13pt;
+    background-color: lightblue;
+    color: darkblue;
 }
 article{
     padding: 1em;

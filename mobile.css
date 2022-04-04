@@ -1,10 +1,73 @@
 body{
     display: grid;
-    grid: 100%;
+    grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas: "header"
     "nav"
     "main"
+    "aside"
     "footer";
     height: 100vh;
 }
+header{
+    grid-area: header;
+}
+
+
+main{
+    grid-area: main;
+}
+h1{
+    font-size: 14pt;
+}
+h2{
+    font-size: 13pt;
+}
+h3{
+    font-size: 12pt;
+}
+h4{
+    font-size: 12pt;
+}
+form{
+    display: grid;
+    width: 200px;
+    grid-template-columns:auto;
+    align-items: center;
+    grid-gap: 0.4em;
+     
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+nav{
+    grid-area: nav;
+}
+
+.shownav {
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+     border-top: 0.2em solid black;
+    border-bottom: 0.2em solid black;
+     border-radius: 0.1em;
+    }
+    .shownav:before {
+        content: '';
+         position: absolute;
+         width: 1.25em;
+         margin-top: 0.3em;
+         border-top: 0.2em solid black;
+     }
+     #click:target nav {
+         display: block;
+         transform: none;
+     }
+     #click.shownav {display: block;}
+     #click.off {display: none;}
+     #click:target .shownav {display: none;}
+     #click:target .off {display: block;}
+     

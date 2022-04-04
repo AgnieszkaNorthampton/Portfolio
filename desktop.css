@@ -6,4 +6,76 @@ body{
     grid-template-areas: "header nav nav"
                          "main main aside"
                        "footer footer footer";
+    margin: 1em;
+}
+header{
+    grid-area: header;
+    padding: 1em;
+}
+header a{
+    display: none;
+    
+}
+nav{
+    grid-area: nav;
+    text-align: center;
+    padding: 2em;
+    font-size: 15pt;
+}
+nav ul li{
+    display: block;
+    float: left;
+    width: 20%;
+}
+main{
+    grid-area: main;
+    padding: 4em;
+}
+h1{
+    font-size: 20pt;
+    margin: 1em;
+}
+h2{
+    font-size: 15pt;
+}
+aside{
+    grid-area: aside;
+}
+.next{
+    font-size: 15pt;
+
+}
+.portfolio{
+    margin: 1em;
+    padding: 1em;
+    font-size: 13pt;
+}
+form{
+    padding: 0.3em;
+    display: grid;
+    width: 500px;
+    grid-template-columns:auto;
+    align-items: center;
+    grid-gap: 0.8em;
+    
+}
+#myinput1{
+    width: 100%;
+    height: 60%;
+    margin: 1em;
+}
+#myinput2{
+    width: 100%;
+    height: 140%;
+    margin: 1em;
+}
+.submit{
+    margin: 2em;
+
+    
+    
+}
+footer{
+    grid-area: footer;
+    padding: 1em;
 }
