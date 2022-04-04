@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-image:url(background.jpg);
 
     
 }
@@ -35,11 +35,18 @@ header>p{
         height: 100%;
     }
     main{
-    background-color: lightgray;
+        background-color: lightgray;
     color:darkblue;
     font-size: 15pt;
+    }
     
     
+    
+    
+
+.portfolio{
+    background-color: lightblue;
+    border-radius: 20%;
 }
 h1{
     text-align: center;
@@ -94,10 +101,7 @@ footer{
     margin: 1em;
 
 }
-.portfolio{
-    background-color: lightblue;
-   
-}
+
 h3{
     font-weight: bold;
     text-align: center;
@@ -112,8 +116,9 @@ h4{
 }
 aside>p{
     font-size: 13pt;
-    background-color: lightblue;
+    
     color: darkblue;
+    font-weight: bold;
 }
 article{
     padding: 1em;
