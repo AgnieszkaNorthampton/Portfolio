@@ -16,6 +16,7 @@ header>p{
     .uni{
         font-size: 12pt;
         font-family: 'Courier New', Courier, monospace;
+        
     }
     
 
@@ -28,7 +29,7 @@ header>p{
 
     li a{
         text-decoration: none;
-        color: darkblue;
+        color: black;
     }
     .logo{
         width: 100%;
@@ -38,15 +39,11 @@ header>p{
         background-color: lightgray;
     color:darkblue;
     font-size: 15pt;
-    }
-    
-    
-    
-    
+    }   
 
 .portfolio{
     background-color: lightblue;
-    border-radius: 20%;
+    border-radius: 10%;
 }
 h1{
     text-align: center;
@@ -61,7 +58,7 @@ h2{
 
 footer{
     
-    color: darkblue;
+    color: black
     text-align: left;
 }
 
@@ -75,32 +72,6 @@ footer{
     margin: 1em;
 }
 
-.web{
-    height: 38%;
-    width: 38%;
-    border-radius: 30%;
-    margin: 1em;
-}
-.game{
-    height: 38%;
-    width: 38%;
-    border-radius: 30%;
-    margin: 1em;
-}
-.database{
-    height: 38%;
-    width: 38%;
-    border-radius: 30%;
-    margin: 1em;
-    
-}
-.project{
-    height: 38%;
-    width: 38%;
-    border-radius:30%;
-    margin: 1em;
-
-}
 
 h3{
     font-weight: bold;

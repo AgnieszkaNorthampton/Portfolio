@@ -41,6 +41,12 @@ h2{
 aside{
     grid-area: aside;
 }
+.web{
+    height: 38%;
+    width: 38%;
+    border-radius: 30%;
+    margin: 1em;
+}
 .next{
     font-size: 15pt;
 

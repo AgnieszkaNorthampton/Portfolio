@@ -29,6 +29,12 @@ h3{
 h4{
     font-size: 12pt;
 }
+.web{
+    height: 30%;
+    width: 30%;
+    border-radius: 30%;
+    margin: 0.5em;
+}
 form{
     display: grid;
     width: 200px;
