@@ -26,6 +26,7 @@ nav {
 }
 a{
     color: black;
+    text-decoration: none;
 }
 a:hover{
     color: darkgray;
@@ -76,6 +77,7 @@ aside>p{
 }
 aside{
     grid-area: aside;
+    
 }
 article{
     padding: 1em;
@@ -97,6 +99,9 @@ article{
 }
 footer{
     grid-area: footer;
+}
+.text{
+    padding: 2em;
 }
    
 
