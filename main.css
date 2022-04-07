@@ -2,7 +2,6 @@ body{
     background-image:url(background.jpg);
 }
 header{
-
     font-weight: bold;
     grid-area: header;
     padding: 1em;
@@ -69,15 +68,21 @@ h4{
     padding: 1em;
     font-size: 13pt;
     color: darkblue;
+    text-align: center;
 }
 aside>p{
     font-size: 13pt;
-    color: darkblue;
+    color: black;
     font-weight: bold;
+}
+aside>h3{
+    color: black;
+}
+aside>h4{
+    color: black;
 }
 aside{
     grid-area: aside;
-    
 }
 article{
     padding: 1em;
@@ -85,14 +90,14 @@ article{
 }
 .blog{
     height: 100%;
-    width: 100%;
+    width: 110%;
     border-radius: 30%;
 }
 .contactpage{
-    height: 50%;
-    width: 50%;
+    height: 11%;
+    width: 11%;
     border-radius: 20%;
-    float: right
+    float: right;
 }
 .reporting{
     text-align: center;
@@ -100,9 +105,17 @@ article{
 footer{
     grid-area: footer;
 }
-.text{
-    padding: 2em;
+.process{
+    background-color: lightblue;
+    font-size: 12pt;
+    border-radius: 13%;
 }
+.world{
+    height: 100%;
+    width: 100%;
+}
+
+
    
 
 

@@ -7,12 +7,18 @@ body{
     "footer footer footer";
     margin: 0.5em
 }
-
+.siterep{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    grid-template-areas: "header nav nav"
+    "main main main"
+    "footer footer footer" ;
+    margin: 00.5em;
+}
 header a{
     display: none;
-    
 }
-
 nav ul {
     list-style-type: none;
     display: grid;
@@ -20,7 +26,6 @@ nav ul {
     text-align: center;
     padding: 2em;
     font-size: 15pt;
-    
 }
 nav > ul > li{
     position: relative;
@@ -46,20 +51,19 @@ h1{
 h2{
     font-size: 15pt;
 }
-
 .web{
-    height: 38%;
-    width: 38%;
-    border-radius: 30%;
-    margin: 1em;
+    height: 30%;
+    width: 30%;
+    border-radius: 20%;
+    
 }
 .next{
     font-size: 15pt;
 }
 .portfolio{
-    margin: 1em;
-    padding: 1em;
+    padding: 2em;
     font-size: 13pt;
+
 }
 form{
     padding: 0.3em;
@@ -83,5 +87,13 @@ form{
     margin: 2em;
 }
 footer{
-    padding: 1em;
+    padding: 2em;
+}
+.text{
+    padding: 3em;
+}
+.validator{
+    height: 22%;
+    width: 22%;
+    border-radius: 20%;
 }
