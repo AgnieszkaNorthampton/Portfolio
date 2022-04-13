@@ -5,7 +5,7 @@ body{
     grid-template-areas: "header nav nav"
     "main main aside"
     "footer footer footer";
-    margin: 0.5em
+    margin: 4%;
 }
 .siterep{
     display: grid;
@@ -14,7 +14,6 @@ body{
     grid-template-areas: "header nav nav"
     "main main main"
     "footer footer footer" ;
-    margin: 00.5em;
 }
 header a{
     display: none;
@@ -51,22 +50,25 @@ h1{
 h2{
     font-size: 15pt;
 }
+h4{
+    font-size: 25pt;
+    text-align: center;
+}
 .web{
-    height: 30%;
-    width: 30%;
+    height: 28%;
+    width: 28%;
     border-radius: 20%;
-    
+    padding: 1.1em;
 }
 .next{
     font-size: 15pt;
 }
 .portfolio{
-    padding: 2em;
-    font-size: 13pt;
-
+    padding: 1em;
+    font-size: 18pt;
 }
 form{
-    padding: 0.3em;
+    padding: 0.2em;
     display: grid;
     width: 500px;
     grid-template-columns:auto;
@@ -85,9 +87,10 @@ form{
 }
 .submit{
     margin: 2em;
+    padding: 0.5em;
 }
 footer{
-    padding: 2em;
+    padding: 3em;
 }
 .text{
     padding: 3em;
@@ -96,4 +99,35 @@ footer{
     height: 22%;
     width: 22%;
     border-radius: 20%;
+    padding: 0.8em;
+}
+.process{
+    border-radius: 13%;
+    background-color: lightsteelblue;
+    font-size: 13pt;
+    padding: 1em;
+}
+.blog article{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    padding: 1%;
+    
+}
+.section1{
+    padding:10%;
+    background-color: darkgoldenrod;
+}
+.section2{
+    padding: 10%;
+    background-color:darkcyan;
+}
+.section3{
+    padding: 10%;
+    background-color:lightcoral;
+}
+.index{
+    font-size: 19pt;
+    background-color: lightsteelblue;
+    
 }

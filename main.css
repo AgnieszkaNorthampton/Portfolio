@@ -1,5 +1,5 @@
 body{
-    background-image:url(background.jpg);
+    background-image:url(images/background.jpg);
 }
 header{
     font-weight: bold;
@@ -32,16 +32,10 @@ a:hover{
 }
 main{
     grid-area: main;
-    background-color: lightgray;
-    color:darkblue;
-    font-size: 15pt;
-    font-family:'Times New Roman', Times, serif;
-    padding: 1em;
-}   
+    
+}
 .portfolio{
-    background-color: lightblue;
-    border-radius: 10%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Grape nuts' , cursive;
 
 }
 h1{
@@ -62,13 +56,6 @@ footer{
 h3{
     font-weight: bold;
     text-align: center;
-    color: darkblue;
-}
-h4{
-    padding: 1em;
-    font-size: 13pt;
-    color: darkblue;
-    text-align: center;
 }
 aside>p{
     font-size: 13pt;
@@ -85,13 +72,8 @@ aside{
     grid-area: aside;
 }
 article{
-    padding: 1em;
+
     font-size: 13pt;
-}
-.blog{
-    height: 100%;
-    width: 110%;
-    border-radius: 30%;
 }
 .contactpage{
     height: 11%;
@@ -105,14 +87,16 @@ article{
 footer{
     grid-area: footer;
 }
-.process{
-    background-color: lightblue;
-    font-size: 12pt;
-    border-radius: 13%;
-}
 .world{
     height: 100%;
     width: 100%;
+}
+.index{
+    font-family: 'Grape nuts' , cursive;
+    
+}
+.blog{
+    padding: 2em;
 }
 
 
