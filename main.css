@@ -36,9 +36,8 @@ main{
 }
 .portfolio{
     font-family:'Grape nuts' , cursive;
-
 }
-h2{
+h1{
     text-align: center;
 }
 footer{
@@ -49,7 +48,7 @@ footer{
     font-size: 16pt;
     text-align: center;
 }
-h3{
+h2{
     font-weight: bold;
     text-align: center;
 }
@@ -71,12 +70,6 @@ article{
 
     font-size: 13pt;
 }
-.contactpage{
-    height: 11%;
-    width: 11%;
-    border-radius: 20%;
-    float: right;
-}
 .reporting{
     text-align: center;
 }
@@ -90,9 +83,6 @@ footer{
 .index{
     font-family: 'Grape nuts' , cursive;
     
-}
-.blog{
-    padding: 2em;
 }
 
 

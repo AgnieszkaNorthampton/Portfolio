@@ -23,7 +23,7 @@ nav ul {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     text-align: center;
-    padding: 2em;
+    padding: 2%;
     font-size: 15pt;
 }
 nav > ul > li{
@@ -43,11 +43,11 @@ ul ul li:hover{
     background-color: red;
     cursor: pointer;
 }
-h2{
-    font-size: 15pt;
-}
-h4{
+h1{
     font-size: 25pt;
+}
+h2{
+    font-size: 18pt;
     text-align: center;
 }
 .web{
@@ -86,10 +86,16 @@ form{
     padding: 0.5em;
 }
 footer{
-    padding: 3em;
+    padding: 5%;
 }
 .text{
-    padding: 3em;
+    padding: 2em;
+}
+.contactpage{
+    height: 11%;
+    width: 11%;
+    border-radius: 20%;
+    float: right;
 }
 .validator{
     height: 22%;
@@ -103,7 +109,7 @@ footer{
     font-size: 13pt;
     padding: 1em;
 }
-.blog article{
+.blog {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto;
@@ -125,5 +131,4 @@ footer{
 .index{
     font-size: 19pt;
     background-color: lightsteelblue;
-    
 }
