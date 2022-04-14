@@ -43,10 +43,6 @@ ul ul li:hover{
     background-color: red;
     cursor: pointer;
 }
-h1{
-    font-size: 20pt;
-    margin: 1em;
-}
 h2{
     font-size: 15pt;
 }
@@ -115,15 +111,15 @@ footer{
     
 }
 .section1{
-    padding:10%;
+    padding:11%;
     background-color: darkgoldenrod;
 }
 .section2{
-    padding: 10%;
+    padding: 11%;
     background-color:darkcyan;
 }
 .section3{
-    padding: 10%;
+    padding: 11%;
     background-color:lightcoral;
 }
 .index{
